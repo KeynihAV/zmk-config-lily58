@@ -18,6 +18,34 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+
+        shift+home {
+            bindings = <&kp LS(HOME)>;
+            key-positions = <7 19>;
+            timeout-ms = <50>;
+            layers = <2>;
+        };
+
+        shift+end {
+            bindings = <&kp LS(END)>;
+            key-positions = <9 21>;
+            timeout-ms = <50>;
+            layers = <2>;
+        };
+
+        ctrl+shift+left {
+            bindings = <&kp LS(LC(LEFT_ARROW))>;
+            key-positions = <31 30>;
+            timeout-ms = <50>;
+            layers = <2>;
+        };
+
+        ctrl+shift+right {
+            bindings = <&kp LS(LC(RIGHT))>;
+            key-positions = <34 33>;
+            timeout-ms = <50>;
+            layers = <2>;
+        };
     };
 
     behaviors {
